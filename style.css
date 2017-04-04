@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Test */
+
+/* Header */
+#header {
+	z-index: 2;
+	position: fixed;
+	float: left;
+	width: 768px;
+	margin-top: 10px;
+	height: 80px;
+	background-color: #BBAB8F;
+	margin-bottom: 10px;
+	opacity: 1;
+}
+
+#header2 {
+	z-index: 2;
+	position: fixed;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	height: 80px;
+	background-color: #BBAB8F;
+	margin-bottom: 10px;
+	opacity: 1;
+}
+
+/*#top{
+	z-index: 1;
+	position: fixed;
+	float: center;
+	width: 768px;
+	margin-top: -20px;
+	height: 80px;
+	background-color:#E5E5E5;
+	margin-bottom: 10px;
+	opacity: 1;
+}*/
+
+#typographiclogo{
+	margin-top: 30px;
+	margin-left: 20px;
+	position: fixed;
+	z-index: 3;
+	opacity: 1;
+}
+
+/* Navigation */
+
+#home{
+	float:right;
+	margin-right: 6px;
+	padding-top: 18px;
+	font-size: 14px;
+	font-family: "Open Sans Light", "Helvetica Neue UltraLight", Arial, sans-serif;
+	color: #ffffff;
+}
+
+#about{
+	float:right;
+	margin-right: 6px;
+	padding-top: 18px;
+	font-size: 14px;
+	font-family: "Open Sans Light", "Helvetica Neue UltraLight", Arial, sans-serif;
+	color: #ffffff;
+}
+
+#farmtable{
+	float:right;
+	margin-right: 6px;
+	padding-top: 18px;
+	font-size: 14px;
+	font-family: "Open Sans Light", "Helvetica Neue UltraLight", Arial, sans-serif;
+	color: #ffffff;
+}
+
+#nutsbolts{
+	float:right;
+	margin-right: 10px;
+	padding-top: 18px;
+	font-size: 14px;
+	font-family: "Open Sans Light", "Helvetica Neue UltraLight", Arial, sans-serif;
+	color: #ffffff;
+}
+
+/* Body */
+
+body{
+	background-color: #E5E5E5;
+	font-family: "Open Sans Light", "Helvetica Neue UltraLight", Arial, sans-serif;
+	font-size: 12px;
+    /*background-image:url(links/background.png)*/
+    
+}
+
+#container {
+	width:768px;
+	background-color: /*transparent;*/#E5E5E5;
+	margin:auto;
+}
+
+/*#container2 {
+	width:768px;
+	background-color:#E5E5E5;
+	margin:auto;
+}*/
+
+h1{
+	padding-top: 80px;
+	font-family: "Arvo", "Arial Black", "Rockwell", sans-serif;
+}
+
+h2, h3, h4{
+	font-family: "Open Sans", Helvetica, sans-serif;	
+}
+
+#map {
+	width: 700px;
+	height: 450px;
+	margin-left: 34px;
+	margin-bottom: 20px;
+}
+
+/* Footer */
+
+#footer {
+    width: 100%;
+	position: relative;
+	height: 50px;
+	background-color: #BBAB8F;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+	opacity: 1;
+}
+
+/*#footer2 {
+	position: relative;
+	height: 50px;
+	background-color: #BBAB8F;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+	opacity: 1;
+}*/
+
+.footer {
+	font-family: "Arvo", "Arial Black", "Rockwell", sans-serif;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 8px;
+}
+
+#logo{
+    margin-top: 10px;
+    margin-left: 136px;
+	position: absolute;
+	z-index: 3;
+	opacity: 1;
+}
